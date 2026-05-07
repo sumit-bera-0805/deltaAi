@@ -1,103 +1,80 @@
-# 🌌 DeltaAI - Into the Unknown
+# 🌌 DeltaAI
 
-DeltaAI is a modern conversational AI platform built for fast, smooth, and intelligent interactions. Developed using the MERN stack and integrated with Google Gemini AI, the platform delivers real-time AI conversations with a clean dark-themed interface, secure authentication, and smart code-rendering capabilities.
+DeltaAI is an AI chat application built using the MERN stack and Google Gemini API.  
+It provides fast AI responses, secure login, chat history storage, and a clean modern UI.
 
 ---
 
 # ✨ Features
 
-- **AI-Powered Conversations**  
-  Integrated with the Gemini AI model to generate fast, contextual, and accurate responses.
-
-- **Modern Dark UI**  
-  Minimal and premium dark-mode interface designed for a smooth user experience.
-
-- **Smart Code Blocks**  
-  Supports Markdown rendering, syntax highlighting, and one-click code copy functionality.
-
-- **Chat History Storage**  
-  Conversations are securely stored in MongoDB and synced automatically after login.
-
-- **Secure Authentication**  
-  User authentication and session management handled using Clerk.
-
-- **Responsive Design**  
-  Optimized for desktop, tablet, and mobile devices.
+- AI-powered chat using Gemini API  
+- Clean and responsive dark-mode UI  
+- Secure authentication with Clerk  
+- Chat history stored using MongoDB  
+- Markdown and code syntax highlighting  
+- Copy code button support  
+- Mobile and desktop responsive design  
 
 ---
 
 # 🛠️ Tech Stack
 
 ## Frontend
-- React.js (Vite)
+- React.js
 - TypeScript
-- Material UI (MUI)
+- Material UI
 - Clerk Authentication
-- React Markdown
-- React Syntax Highlighter
 
 ## Backend
 - Node.js
 - Express.js
 - MongoDB
 - Mongoose
-- Google Generative AI SDK
-- TypeScript
+- Gemini API
 
 ---
 
-# 🚀 Getting Started
+# 🚀 Setup
 
-Follow these steps to run DeltaAI locally.
-
-## Prerequisites
-- Node.js installed
-- MongoDB database setup
-- Clerk account
-- Google AI Studio API Key
-
----
-
-# 1️⃣ Clone the Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/your-username/DeltaAI.git
 
 cd DeltaAI
-2️⃣ Backend Setup
+Backend Setup
 cd backend
 npm install
 
-Create a .env file inside the backend folder:
+Create .env file:
 
 PORT=5000
-MONGODB_URL=your_mongodb_connection_string
-GEMINI_API_KEY=your_gemini_api_key
-CLERK_SECRET_KEY=your_clerk_secret_key
+MONGODB_URL=your_mongodb_url
+GEMINI_API_KEY=your_api_key
+CLERK_SECRET_KEY=your_clerk_secret
 
-Start backend server:
+Run backend:
 
 npm run dev
-3️⃣ Frontend Setup
+Frontend Setup
 cd frontend
 npm install
 
-Create a .env file inside the frontend folder:
+Create .env file:
 
 VITE_API_URL=http://localhost:5000
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_key
 
 Run frontend:
 
 npm run dev
 🧠 Usage
 Open http://localhost:5173
-Create an account or login
+Login or create account
 Start chatting with DeltaAI
-Generate code snippets, explanations, and AI responses instantly
 👨‍💻 Developer
 
 Sumit Bera
-Full Stack & MERN Developer
+MERN Stack Developer
 
 GitHub: @sumit-bera-0805
