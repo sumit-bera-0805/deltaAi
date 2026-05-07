@@ -1,85 +1,103 @@
-# 🌌 DeltaAI - Into the unknown
+# 🌌 DeltaAI - Into the Unknown
 
-DeltaAI is a high-performance, minimalist conversational AI platform. Built with the MERN stack and powered by Google's Gemini API, it features a sleek dark-mode interface, secure authentication, and seamless code-handling capabilities.
+DeltaAI is a modern conversational AI platform built for fast, smooth, and intelligent interactions. Developed using the MERN stack and integrated with Google Gemini AI, the platform delivers real-time AI conversations with a clean dark-themed interface, secure authentication, and smart code-rendering capabilities.
 
-## Features
+---
 
-* **Advanced AI Conversation:** Powered by the `gemini-2.5` model for fast, contextual, and accurate responses.
-* **Modern UI/UX:** A premium, dark-themed interface inspired by leading AI platforms, featuring the `Outfit` font for a    clean, geometric look.
-* **Smart Code Blocks:** Real-time Markdown rendering with syntax highlighting and a one-click "Copy Code" feature.
-* **Session Persistence:** Chat histories are securely saved to MongoDB and instantly synced when you log in.
-* **Secure Authentication:** End-to-end user identity management powered by Clerk.
-* **Responsive Design:** Fully optimized for both desktop and mobile experiences.
+# ✨ Features
 
-## 🛠️ Tech Stack
+- **AI-Powered Conversations**  
+  Integrated with the Gemini AI model to generate fast, contextual, and accurate responses.
 
-**Frontend:**
-* React.js (Vite)
-* TypeScript
-* Material-UI (MUI)
-* Clerk (Authentication)
-* React Markdown & Syntax Highlighter
+- **Modern Dark UI**  
+  Minimal and premium dark-mode interface designed for a smooth user experience.
 
-**Backend:**
-* Node.js & Express.js
-* MongoDB & Mongoose
-* Google Generative AI SDK (Gemini API)
-* TypeScript
+- **Smart Code Blocks**  
+  Supports Markdown rendering, syntax highlighting, and one-click code copy functionality.
 
-## 🚀 Getting Started
+- **Chat History Storage**  
+  Conversations are securely stored in MongoDB and synced automatically after login.
 
-Follow these steps to set up DeltaAI on your local machine.
+- **Secure Authentication**  
+  User authentication and session management handled using Clerk.
 
-### Prerequisites
-* Node.js installed
-* MongoDB account/cluster set up
-* Clerk account for authentication
-* Google AI Studio account (for Gemini API Key)
+- **Responsive Design**  
+  Optimized for desktop, tablet, and mobile devices.
 
-### 1. Clone the repository
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React.js (Vite)
+- TypeScript
+- Material UI (MUI)
+- Clerk Authentication
+- React Markdown
+- React Syntax Highlighter
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Google Generative AI SDK
+- TypeScript
+
+---
+
+# 🚀 Getting Started
+
+Follow these steps to run DeltaAI locally.
+
+## Prerequisites
+- Node.js installed
+- MongoDB database setup
+- Clerk account
+- Google AI Studio API Key
+
+---
+
+# 1️⃣ Clone the Repository
 
 ```bash
-
-git clone [https://github.com/geekyanimesh/DeltaAI.git](https://github.com/geekyanimesh/DeltaAI.git)
+git clone https://github.com/your-username/DeltaAI.git
 
 cd DeltaAI
-
-2. Setup the Backend
-
+2️⃣ Backend Setup
 cd backend
 npm install
 
-Create a .env file in the backend directory:
+Create a .env file inside the backend folder:
 
 PORT=5000
 MONGODB_URL=your_mongodb_connection_string
 GEMINI_API_KEY=your_gemini_api_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
-Start the backend server:
-npm run dev
+Start backend server:
 
-3. Setup the Frontend
+npm run dev
+3️⃣ Frontend Setup
 cd frontend
 npm install
 
-Create a .env file in the frontend directory:
+Create a .env file inside the frontend folder:
+
 VITE_API_URL=http://localhost:5000
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
-Start the Vite development server:
+Run frontend:
+
 npm run dev
-
 🧠 Usage
-Open http://localhost:5173 in your browser.
+Open http://localhost:5173
+Create an account or login
+Start chatting with DeltaAI
+Generate code snippets, explanations, and AI responses instantly
+👨‍💻 Developer
 
-Sign up or Log in using Clerk.
+Sumit Bera
+Full Stack & MERN Developer
 
-Start chatting with DeltaAI!
-
-Try asking for code snippets to see the syntax highlighting and copy feature in action.
-
-👨‍💻 Author
-Animesh Kumar | Full Stack Developer
-
-GitHub: @geekyanimesh
+GitHub: @sumit-bera-0805
